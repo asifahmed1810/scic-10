@@ -8,13 +8,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import router from './Routes/router';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div className='text-5xl'>Hello world!</div>,
-  },
-]);
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
