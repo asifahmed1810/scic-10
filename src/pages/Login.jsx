@@ -31,7 +31,7 @@ const Login = () => {
               alt="Google Logo"
               className="w-5 h-5"
             />
-            Continue with Google
+            Continue  Google
           </button>
         </div>
       
