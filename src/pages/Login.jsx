@@ -6,6 +6,7 @@ import { AuthContext } from "../providers/AuthProvider";
 const Login = () => {
 
   const{googleSignIn,user}=useContext(AuthContext);
+  
 
   const handleLogin = () => {
     googleSignIn()
@@ -31,7 +32,7 @@ const Login = () => {
               alt="Google Logo"
               className="w-5 h-5"
             />
-            Continue  Google
+            Continue With Google
           </button>
         </div>
       
